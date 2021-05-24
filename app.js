@@ -97,7 +97,6 @@ document.addEventListener('DOMContentLoaded', function () {
             li.style.color = getRandomColors();
         });
 
-        // Listens for the <li> to be double clicked, then runs a function().
         li.addEventListener("dblclick", function() {
             li.remove();
         });
